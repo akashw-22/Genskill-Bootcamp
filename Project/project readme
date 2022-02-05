@@ -1,0 +1,27 @@
+virtualenv location :venv/genkill/voting/bin/activate
+
+create a database
+	
+	table for users:
+		users will have registration info: name, age, username, password, participated
+	table for polls:
+		poll details : status(available or not), total participants, creator, . option_count ,option_names(n), option_values(n), startdate, enddate, poll name, poll description
+		
+		
+webpage
+	
+	first page login
+		username and password
+		forgot password -optional
+		register
+			
+	register
+		enter details : name, age, username, password
+	
+	home
+		create polls
+		current polls
+		your polls
+	
+	create polls
+		enter details : poll name, poll description, options, endtime

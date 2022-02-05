@@ -1,0 +1,19 @@
+Virtualenv:
+	
+	{path : /usr/bin/python3 /tmp/bootcamp}
+	
+	* for activating : . /tmp/bootcamp/bin/activate
+	* for creating a venv : virtualenv -p /usr/bin/python3 <path>
+	* for deactivating : deactivate while in venv
+	* for removing : rm -rf <venv_name>
+	
+Setting up postgresql
+	
+PostgreSQL:
+
+	* createdb <db_name> : create a database with name : db_name
+	* psql <db_name> : connect to the database
+	* /dt : for showing the database(postgresql command)
+	* select <fields (with commas)> from <db_name> : prints the fields specified(* prints all)
+	
+	*export FLASK_ENV = development : all debugging is active in flask
